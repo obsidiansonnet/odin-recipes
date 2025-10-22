@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    /* outline: 0.5px solid black; */
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+a, body, ul, ol, li, h2, h1, p, figcaption {
+    margin: 10px;
+    padding: 2px;
+}
+
+li {
+    list-style-type:none;
+}
+
+body {
+    background-color:rgb(235, 243, 241);
+}
+
+.home_button {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: white;   
+}
+
+.page_heading {
+    text-align: center;
+    background-color:cadetblue;
+    color: white;
+    font-style:oblique;
+    font-family:"Courier New", monospace;
+}
+
+.picture {
+    margin: 10px auto;
+    display: block;
+    box-sizing: content-box;
+    border: 5px solid cadetblue;
+}
+
+.image_credits {
+    text-align: center;
+    margin: 0px;
+    background-color:cadetblue;
+    font-family:"Courier New", monospace;
+}
+
+.image_link, .profile_link {
+    background-color: white;
+    font-weight:bold;
+    color: cadetblue; 
+    font-family:"Courier New", monospace;
+}
+
+.credits_text {
+    font-weight:bold;
+    font-family:"Lucida Handwriting", cursive;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+}
+
+.description {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white; 
+    text-align:right;
+    font-family: "Brush Script MT", cursive;
+}
+
+.description_text {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+    text-align: center;
+}
+
+.ingredients_heading {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+    text-align: center;
+}
+
+ul li {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+    text-align: right;
+}
+
+.steps_title {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+    text-align: center;
+}
+
+ol li{
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+}
+
+strong, em {
+    display:inline-block;
+}
+
+.disclaimer_text strong em {
+    font-family:papyrus, fantasy;
+    background-color:cadetblue;
+    color:white;
+    text-align: right;
+}
+
+
