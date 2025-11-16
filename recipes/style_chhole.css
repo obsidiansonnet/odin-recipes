@@ -1,0 +1,102 @@
+/* CSS Reset Code */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    /* outline: 0.5px solid blue; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Global Page Styling */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.main_container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+
+/* Header & Title */
+
+.header_container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header_container h1 {
+    order: -1;
+    margin-right: auto;
+}
+
+.header_container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Image & Caption */
+
+/* This section defies the styling instruction to let the image occupy the full width because the dimensions of the image are such that stretching it to full-width leads it to occupy almost one full screen. Therefore, instead of using full-width, I have used 50% width of the container */
+
+img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center; 
+    color: grey;
+    font-style: italic;
+}
+
+
+
+
+/* Main Content */
+
+.recipe_body {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.ingredients {
+    flex-basis:50%;
+    padding-right: 20px;
+}
+
+.steps {
+    flex-grow:1;
+}
+
+ul, ol {
+    list-style: none;
+    line-height: 25px;
+}
+
+
+/* Disclaimer footer */
+
+.disclaimer {
+    border-top: 1px solid #eee; 
+    padding-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
